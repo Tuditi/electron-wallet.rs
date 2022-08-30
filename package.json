@@ -1,0 +1,38 @@
+{
+  "name": "realm-issue4491",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^18.0.3",
+    "@iota/wallet": "2.0.2-alpha.21",
+    "@sentry/electron": "^2.5.4",
+    "argon2": "^0.27.1",
+    "electron-log": "^4.3.1",
+    "electron-updater": "^4.3.5",
+    "kdbxweb": "^1.14.4",
+    "keytar": "^7.9.0",
+    "node-machine-id": "^1.1.12",
+    "@iota/bundle": "^1.0.0-beta.30",
+    "@iota/converter": "^1.0.0-beta.30",
+    "@iota/transaction": "^1.0.0-beta.30",
+    "@iota/transaction-converter": "^1.0.0-beta.30",
+    "@iota/unit-converter": "^1.0.0-beta.30",
+    "@iota/util.js": "^1.9.0-stardust.5",
+    "@sveltejs/svelte-virtual-list": "^3.0.1",
+    "big.js": "^6.0.3",
+    "chart.js": "^2.9.3",
+    "lottie-web": "^5.7.8",
+    "qr.js": "0.0.0",
+    "svelte": "^3.49.0",
+    "svelte-i18n": "^3.0.4",
+    "svelty-picker": "^1.3.0",
+    "zxcvbn": "^4.4.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1"
+  },  
+  "scripts": {
+    "start": "ELECTRON_ENABLE_STACK_DUMPING=true ELECTRON_ENABLE_LOGGING=true electron src/index.js"
+  }
+}

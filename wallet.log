@@ -1,0 +1,13 @@
+2022-08-30 16:40:40 (UTC) iota_wallet::message_interface             [94mDEBUG[0m create_message_handler with options: {"storagePath":"./alice-database","clientOptions":"{\"nodes\":[\"https://api.testnet.shimmer.network\"],\"localPow\":true}","coinType":4219,"secretManager":"is_some: true"}
+2022-08-30 16:40:40 (UTC) iota_wallet::account_manager::builder      [94mDEBUG[0m [AccountManagerBuilder]
+2022-08-30 16:40:40 (UTC) iota_wallet::storage::manager              [94mDEBUG[0m get_account_manager_data
+2022-08-30 16:40:40 (UTC) iota_wallet::storage::manager              [94mDEBUG[0m get_account_manager_data {"client_options":{"primaryNode":null,"primaryPowNode":null,"nodes":["https://api.testnet.shimmer.network/"],"permanodes":null,"nodeSyncEnabled":true,"nodeSyncInterval":{"secs":15,"nanos":0},"quorum":false,"minQuorumSize":3,"quorumThreshold":66,"network":null,"networkId":null,"bech32Hrp":null,"minPowScore":null,"localPow":true,"fallbackToLocalPow":true,"tipsInterval":5,"rentStructure":null,"apiTimeout":{"secs":15,"nanos":0},"remotePowTimeout":{"secs":100,"nanos":0},"offline":false,"powWorkerCount":null},"coin_type":4219,"storage_options":{"storage_path":"./alice-database","storage_file_name":null,"storage_encryption_key":null,"manager_store":"Rocksdb"}}
+2022-08-30 16:40:40 (UTC) iota_wallet::storage::manager              [94mDEBUG[0m get_secret_manager {"Stronghold":{"password":null,"timeout":null,"snapshotPath":"./wallet.stronghold"}}
+2022-08-30 16:40:40 (UTC) iota_client::client                        [94mDEBUG[0m sync_nodes
+2022-08-30 16:40:40 (UTC) reqwest::connect                           [94mDEBUG[0m starting new connection: https://api.testnet.shimmer.network/
+2022-08-30 16:40:41 (UTC) reqwest::async_impl::client                [94mDEBUG[0m response '200 OK' for https://api.testnet.shimmer.network/api/core/v2/info
+2022-08-30 16:40:41 (UTC) iota_wallet::account_manager               [94mDEBUG[0m creating account
+2022-08-30 16:40:41 (UTC) iota_wallet::account::builder              [94mDEBUG[0m [ACCOUNT BUILDER] creating new account Alice with index 0
+2022-08-30 16:40:41 (UTC) iota_client::client                        [94mDEBUG[0m sync_nodes
+2022-08-30 16:40:41 (UTC) reqwest::connect                           [94mDEBUG[0m starting new connection: https://api.testnet.shimmer.network/
+2022-08-30 16:40:41 (UTC) reqwest::async_impl::client                [94mDEBUG[0m response '200 OK' for https://api.testnet.shimmer.network/api/core/v2/info
